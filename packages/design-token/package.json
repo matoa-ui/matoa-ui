@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  "name": "@matoa-ui/design-token",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "test": "tsdx test",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "author": "firstaroyand",
+  "module": "dist/design-token.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/design-token.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/design-token.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "polished": "^4.2.2"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "husky": "^7.0.4",
+    "size-limit": "^7.0.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}

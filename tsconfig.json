@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@matoa-ui/design-token": ["./packages/core/src"],
+      "@matoa-ui/components": ["./packages/components/src"],
+      "@matoa-ui/helpers": ["./packages/helpers/src"]
+    }
+  }
+}
