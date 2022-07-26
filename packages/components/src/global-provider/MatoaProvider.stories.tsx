@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Button } from '../ui-components';
 import { theme } from '../theme';
-import RatatoskrProvider from './RatatoskrProvider';
+import MatoaProvider from './MatoaProvider';
 
 export default {
-  title: 'Core/Foundations/RatatoskrProvider',
-  component: RatatoskrProvider,
+  title: 'Core/Foundations/MatoaProvider',
+  component: MatoaProvider,
   parameters: {
     jsx: { skip: 1 },
   },
@@ -13,9 +13,9 @@ export default {
 
 export function ThemeProvider() {
   return (
-    <RatatoskrProvider>
+    <MatoaProvider>
       <Button variant="primary">Button Primary</Button>
-    </RatatoskrProvider>
+    </MatoaProvider>
   );
 }
 

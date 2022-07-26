@@ -6,7 +6,7 @@ import { theme as defaultTheme, Theme } from '../theme';
 import injectGlobalStyles from './injectGlobalStyles';
 import { ToastProvider } from '../ui-components/toast';
 
-export interface RatatoskrProviderProps {
+export interface MatoaProviderProps {
   /**
    * If you want to extend the global styles set to `true` and inject them
    * manually via `injectGlobalStyles`.
@@ -19,7 +19,7 @@ export interface RatatoskrProviderProps {
 
 const { GlobalStyles } = injectGlobalStyles();
 
-const RatatoskrProvider: React.FC<RatatoskrProviderProps> = ({
+const MatoaProvider: React.FC<MatoaProviderProps> = ({
   children,
   disableInjection,
   theme = defaultTheme,
@@ -36,6 +36,6 @@ const RatatoskrProvider: React.FC<RatatoskrProviderProps> = ({
   );
 };
 
-RatatoskrProvider.displayName = 'RatatoskrProvider';
+MatoaProvider.displayName = 'MatoaProvider';
 
-export default RatatoskrProvider;
+export default MatoaProvider;

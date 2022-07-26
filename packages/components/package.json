@@ -1,11 +1,11 @@
 {
-  "homepage": "http://ratatoskr-ui.github.io/ratatoskr-ui",
+  "homepage": "http://matoa-ui.github.io/matoa-ui",
   "version": "0.1.0",
   "license": "MIT",
   "name": "@matoa-ui/components",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "ratatoskr:src": "./src/index.ts",
+  "matoa:src": "./src/index.ts",
   "files": [
     "dist",
     "src"

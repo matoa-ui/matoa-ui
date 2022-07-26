@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { RatatoskrProvider } from '../src';
+import { MatoaProvider } from '../src';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -20,8 +20,8 @@ export const parameters = {
 
 export const decorators = [
   Story => (
-    <RatatoskrProvider>
+    <MatoaProvider>
       <Story />
-    </RatatoskrProvider>
+    </MatoaProvider>
   ),
 ];

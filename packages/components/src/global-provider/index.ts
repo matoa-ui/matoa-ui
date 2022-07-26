@@ -1,4 +1,4 @@
-export { default as RatatoskrProvider } from './RatatoskrProvider';
-export * from './RatatoskrProvider';
+export { default as MatoaProvider } from './MatoaProvider';
+export * from './MatoaProvider';
 
 export { default as injectGlobalStyles } from './injectGlobalStyles';
