@@ -3,6 +3,23 @@
 
 Koinworks Internal Design System
 
+## Usage
+
+```bash
+# yarn
+$ yarn add styled-components @matoa-ui/components 
+```
+
+Then, you will need to apply the theme provider as well as the default global styles. Wrap your app inside the `MatoaProvider` to do so.
+
+```jsx
+import { MatoaProvider } from '@matoa-ui/components';
+
+export default function MyApp({ children }) {
+  return <MatoaProvider>{children}</MatoaProvider>;
+}
+```
+
 ## Lifecycle
 1. make sure your commit message following [Conventional Commits Specification](https://conventionalcommits.org/) guidance [determine the version bump](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-recommended-bump) and [generate CHANGELOG.md files](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli)
 2. merge feature to `staging` branch
