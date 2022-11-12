@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag /> should render a <Tag> with a info type if explicitly given 1`] = `
+.c0 {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 0.8em;
+  border: 0;
+  color: rgba(47,101,20,1);
+  background-color: rgba(201,239,148,1);
+  padding: 0.25rem 1rem;
+}
+
+<Tag
+  type="info"
+>
+  <styled.span
+    theme={
+      Object {
+        "tagBackground": "rgba(201,239,148,1)",
+        "tagColor": "rgba(47,101,20,1)",
+      }
+    }
+  >
+    <span
+      className="c0"
+    >
+      foo
+    </span>
+  </styled.span>
+</Tag>
+`;
+
+exports[`<Tag /> should render a <Tag> with a primary type if nothing given 1`] = `
+.c0 {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 0.8em;
+  border: 0;
+  color: rgba(52,93,127,1);
+  background-color: rgba(193,230,254,1);
+  padding: 0.25rem 1rem;
+}
+
+<Tag>
+  <styled.span
+    theme={
+      Object {
+        "tagBackground": "rgba(193,230,254,1)",
+        "tagColor": "rgba(52,93,127,1)",
+      }
+    }
+  >
+    <span
+      className="c0"
+    >
+      my-nice-tag
+    </span>
+  </styled.span>
+</Tag>
+`;
+
+exports[`<Tag /> should render a <Tag> with a primary type if something wrong given 1`] = `
+.c0 {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 0.8em;
+  border: 0;
+  color: rgba(52,93,127,1);
+  background-color: rgba(193,230,254,1);
+  padding: 0.25rem 1rem;
+}
+
+<Tag
+  type="bar"
+>
+  <styled.span
+    theme={
+      Object {
+        "tagBackground": "rgba(193,230,254,1)",
+        "tagColor": "rgba(52,93,127,1)",
+      }
+    }
+  >
+    <span
+      className="c0"
+    >
+      foo
+    </span>
+  </styled.span>
+</Tag>
+`;

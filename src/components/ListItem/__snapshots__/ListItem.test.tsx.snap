@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> should not present a border 1`] = `
+.c0 {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1);
+  margin-bottom: -1px;
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:last-child {
+  margin-bottom: 0;
+}
+
+<ListItem
+  border={false}
+>
+  <styled.li
+    border={false}
+  >
+    <li
+      className="c0"
+    />
+  </styled.li>
+</ListItem>
+`;

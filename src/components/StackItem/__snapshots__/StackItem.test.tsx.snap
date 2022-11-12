@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StackItem /> should render the StackItem with height and width declaration 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 40%;
+  height: 15px;
+}
+
+<StackItem
+  height="15px"
+  width="40%"
+>
+  <styled.div
+    height="15px"
+    width="40%"
+  >
+    <div
+      className="c0"
+      height="15px"
+      width="40%"
+    >
+      Content
+    </div>
+  </styled.div>
+</StackItem>
+`;
+
+exports[`<StackItem /> should render the StackItem with no filling 1`] = `
+.c0 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  min-width: auto;
+  height: auto;
+}
+
+<StackItem
+  nofill={true}
+>
+  <styled.div
+    nofill={true}
+  >
+    <div
+      className="c0"
+    />
+  </styled.div>
+</StackItem>
+`;
+
+exports[`<StackItem /> should render the StackItem with some content 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: auto;
+  height: auto;
+}
+
+<StackItem>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      Item
+    </div>
+  </styled.div>
+</StackItem>
+`;
+
+exports[`<StackItem /> should render the StackItem with width declaration 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 20px;
+  height: auto;
+}
+
+<StackItem
+  width="20px"
+>
+  <styled.div
+    width="20px"
+  >
+    <div
+      className="c0"
+      width="20px"
+    />
+  </styled.div>
+</StackItem>
+`;
+
+exports[`<StackItem /> should render the default StackItem 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: auto;
+  height: auto;
+}
+
+<StackItem>
+  <styled.div>
+    <div
+      className="c0"
+    />
+  </styled.div>
+</StackItem>
+`;

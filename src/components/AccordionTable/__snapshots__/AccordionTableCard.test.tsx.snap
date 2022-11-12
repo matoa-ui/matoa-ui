@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccordionTableCard /> should render a <AccordionTable> component with no data and placeholder set 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <styled.div>
+      No data
+    </styled.div>
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;
+
+exports[`<AccordionTableCard /> should render a <AccordionTableCard> component with data and selectedIndex set 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              A
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Alpha
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Alpha team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="1"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              B
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Bravo
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Bravo team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={true}
+    >
+      <div>
+        Test details renderer
+      </div>
+    </AccordionCard>
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="2"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              C
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Charlie
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Charlie team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="3"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              D
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Delta
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Delta team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;
+
+exports[`<AccordionTableCard /> should render a <AccordionTableCard> component with data set 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              C
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Charlie
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Charlie team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="1"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              D
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Delta
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Delta team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="2"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              tag
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              E
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              value
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Echo
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              team
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              Echo team
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;
+
+exports[`<AccordionTableCard /> should render a <AccordionTableCard> component with right columns 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              C
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              5
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="1"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              C
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              10
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;
+
+exports[`<AccordionTableCard /> should render a <AccordionTableCard> component with sorted data 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              c
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              15
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="1"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              c
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              10
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;
+
+exports[`<AccordionTableCard /> should render a <AccordionTableCard> component with wrong columns 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              A
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              B
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+  <Styled(ListItem)
+    key="1"
+  >
+    <AccordionCard
+      header={
+        Array [
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              A
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              B
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>,
+        ]
+      }
+      onActionClick={[Function]}
+      opened={false}
+    />
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;
+
+exports[`<AccordionTableCard /> should render a <AccordionTableCard> component without data and custom placeholder 1`] = `
+<AccordionTableCardHost>
+  <Styled(ListItem)
+    key="0"
+  >
+    <styled.div>
+      No data
+    </styled.div>
+  </Styled(ListItem)>
+</AccordionTableCardHost>
+`;

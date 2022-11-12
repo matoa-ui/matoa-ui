@@ -1,0 +1,85 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "matoa-ui",
+  "author": "Matoa",
+  "module": "dist/matoa-ui.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/matoa-ui.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/matoa-ui.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@popperjs/core": "^2.11.6",
+    "@size-limit/preset-small-lib": "^8.1.0",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "@types/enzyme": "^3.10.12",
+    "@types/react": "^18.0.25",
+    "@types/react-datepicker": "^4.8.0",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-onclickoutside": "^6.7.4",
+    "@types/styled-components": "^5.1.26",
+    "babel-loader": "^9.1.0",
+    "enzyme": "^3.11.0",
+    "husky": "^8.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "size-limit": "^8.1.0",
+    "styled-components": "^5.3.6",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "memoize-one": "^6.0.0",
+    "react-datepicker": "^4.8.0",
+    "react-onclickoutside": "^6.12.2",
+    "react-popper": "^2.3.0",
+    "typescript-plugin-inner-jsx": "^0.1.9"
+  }
+}

@@ -1,0 +1,2229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider /> should render <Slider> 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "0%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "0%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render <Slider> in controlled mode 1`] = `
+.c4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c4:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+.c3 {
+  border-radius: 0.5rem;
+  background: rgba(75,78,82,0.75);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  height: 0.25rem;
+  width: auto;
+  position: absolute;
+  margin: auto;
+}
+
+<SliderInt
+  value={0.5}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <styled.div
+                active={false}
+                style={
+                  Object {
+                    "width": "50%",
+                  }
+                }
+                vertical={false}
+              >
+                <div
+                  className="c3"
+                  style={
+                    Object {
+                      "width": "50%",
+                    }
+                  }
+                />
+              </styled.div>
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.5}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "50%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c4"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "50%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render <Slider> in controlled mode with multiple values 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  value={
+    Array [
+      0.5,
+      0.75,
+    ]
+  }
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.5}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "50%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "50%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+              <div
+                key="1"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="1"
+                  x={0.75}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "75%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "75%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render <Slider> using a custom indicator color 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  color="red"
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  color="red"
+                  key="0"
+                  x={0}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": "red",
+                        "left": "0%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": "red",
+                          "left": "0%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render <Slider> with an initial multiple values 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  defaultValue={
+    Array [
+      0,
+      5,
+      10,
+    ]
+  }
+  maximum={10}
+  minimum={0}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "0%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "0%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+              <div
+                key="1"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="1"
+                  x={0.5}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "50%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "50%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+              <div
+                key="2"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="2"
+                  x={1}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "100%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "100%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render <Slider> with an initial value 1`] = `
+.c4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c4:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+.c3 {
+  border-radius: 0.5rem;
+  background: rgba(75,78,82,0.75);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  height: 0.25rem;
+  width: auto;
+  position: absolute;
+  margin: auto;
+}
+
+<SliderInt
+  defaultValue={0.76}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <styled.div
+                active={false}
+                style={
+                  Object {
+                    "width": "76%",
+                  }
+                }
+                vertical={false}
+              >
+                <div
+                  className="c3"
+                  style={
+                    Object {
+                      "width": "76%",
+                    }
+                  }
+                />
+              </styled.div>
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.76}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "76%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c4"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "76%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render <Slider> with multiple values and a fixed margin 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  defaultValue={
+    Array [
+      0,
+      5,
+    ]
+  }
+  margin={1}
+  maximum={5}
+  minimum={0}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "0%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "0%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+              <div
+                key="1"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="1"
+                  x={1}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "100%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "100%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render a <Slider> with a fixed stepping 1`] = `
+.c4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c4:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+.c3 {
+  border-radius: 0.5rem;
+  background: rgba(75,78,82,0.75);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  height: 0.25rem;
+  width: auto;
+  position: absolute;
+  margin: auto;
+}
+
+<SliderInt
+  step={0.1}
+  value={0.5}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <styled.div
+                active={false}
+                style={
+                  Object {
+                    "width": "50%",
+                  }
+                }
+                vertical={false}
+              >
+                <div
+                  className="c3"
+                  style={
+                    Object {
+                      "width": "50%",
+                    }
+                  }
+                />
+              </styled.div>
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.5}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "50%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c4"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "50%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render a <Slider> with custom boundaries in controlled mode 1`] = `
+.c4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c4:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+.c3 {
+  border-radius: 0.5rem;
+  background: rgba(75,78,82,0.75);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  height: 0.25rem;
+  width: auto;
+  position: absolute;
+  margin: auto;
+}
+
+<SliderInt
+  maximum={10}
+  minimum={1}
+  value={6}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <styled.div
+                active={false}
+                style={
+                  Object {
+                    "width": "55.55555555555556%",
+                  }
+                }
+                vertical={false}
+              >
+                <div
+                  className="c3"
+                  style={
+                    Object {
+                      "width": "55.55555555555556%",
+                    }
+                  }
+                />
+              </styled.div>
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.5555555555555556}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "55.55555555555556%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c4"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "55.55555555555556%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render a disabled <Slider> 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(239,239,239,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: not-allowed;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: none;
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(239,239,239,1);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  disabled={true}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        disabled={true}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          disabled={true}
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  disabled={true}
+                  key="0"
+                  x={0}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    disabled={true}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "0%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      disabled={true}
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "0%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render a horizontal <Slider> 1`] = `
+.c4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c4:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+.c3 {
+  border-radius: 0.5rem;
+  background: rgba(75,78,82,0.75);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  height: 0.25rem;
+  width: auto;
+  position: absolute;
+  margin: auto;
+}
+
+<SliderInt
+  orientation="horizontal"
+  value={0.5}
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+        orientation="horizontal"
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+          orientation="horizontal"
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+            orientation="horizontal"
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+              orientation="horizontal"
+            >
+              <styled.div
+                active={false}
+                style={
+                  Object {
+                    "width": "50%",
+                  }
+                }
+                vertical={false}
+              >
+                <div
+                  className="c3"
+                  style={
+                    Object {
+                      "width": "50%",
+                    }
+                  }
+                />
+              </styled.div>
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.5}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "50%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c4"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "50%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render a multi-value <Slider> with a fixed stepping 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0.5rem 0;
+  height: 0.25rem;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  maximum={1000}
+  step={10}
+  value={
+    Array [
+      0,
+      50,
+      100,
+    ]
+  }
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "0%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "0%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+              <div
+                key="1"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="1"
+                  x={0.05}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "5%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "5%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+              <div
+                key="2"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="2"
+                  x={0.1}
+                  y={0.5}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "10%",
+                        "top": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "10%",
+                          "top": "50%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;
+
+exports[`<Slider /> should render a vertical <Slider> 1`] = `
+.c3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(114,114,114,1);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1), border 0.2s cubic-bezier(0,0,0.25,1);
+}
+
+.c3:hover {
+  border: 0.25rem solid rgba(75,78,82,1);
+}
+
+.c2 {
+  position: relative;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  position: relative;
+  outline: 0;
+  height: 100%;
+}
+
+.c1 {
+  position: relative;
+  padding: 0 0.5rem;
+  height: 100%;
+  width: 0.25rem;
+  box-sizing: content-box;
+}
+
+.c1:after {
+  content: '';
+  display: block;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: rgba(211,211,211,0.25);
+  -webkit-transition: background 0.3s cubic-bezier(0,0,0.25,1);
+  transition: background 0.3s cubic-bezier(0,0,0.25,1);
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover:after {
+  background: rgba(0,102,156,0.25);
+}
+
+<SliderInt
+  orientation="vertical"
+>
+  <styled.div
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      className="c0"
+      onKeyDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex={0}
+    >
+      <Styled(InteractiveSurface)
+        active={false}
+        onChange={[Function]}
+        orientation="vertical"
+      >
+        <InteractiveSurface
+          active={false}
+          className="c1"
+          onChange={[Function]}
+          orientation="vertical"
+        >
+          <styled.div
+            active={false}
+            className="c1"
+            onClickCapture={[Function]}
+            onMouseDownCapture={[Function]}
+            onTouchStartCapture={[Function]}
+            orientation="vertical"
+          >
+            <div
+              className="c2 c1"
+              onClickCapture={[Function]}
+              onMouseDownCapture={[Function]}
+              onTouchStartCapture={[Function]}
+              orientation="vertical"
+            >
+              <div
+                key="0"
+              >
+                <IndicatorKnob
+                  active={false}
+                  key="0"
+                  x={0.5}
+                  y={1}
+                >
+                  <styled.div
+                    active={false}
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "left": "50%",
+                        "top": "100%",
+                      }
+                    }
+                  >
+                    <div
+                      className="c3"
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "left": "50%",
+                          "top": "100%",
+                        }
+                      }
+                    />
+                  </styled.div>
+                </IndicatorKnob>
+              </div>
+            </div>
+          </styled.div>
+        </InteractiveSurface>
+      </Styled(InteractiveSurface)>
+    </div>
+  </styled.div>
+</SliderInt>
+`;

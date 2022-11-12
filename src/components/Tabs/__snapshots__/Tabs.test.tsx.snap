@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render a <Tabs> component with some props 1`] = `
+.c0 {
+  margin: 0 0 0.25rem;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: 3rem;
+}
+
+.c1:hover {
+  color: rgba(0,139,208,1);
+  border: none;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c2 {
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: 3rem;
+  font-weight: 500;
+  color: rgba(0,0,0,1);
+  border-color: rgba(64,64,64,1);
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c3 {
+  display: none;
+}
+
+@media (min-width:980px) {
+  .c1 {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c1 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:980px) {
+  .c1 {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c1 {
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width:980px) {
+  .c2 {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:980px) {
+  .c2 {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c2 {
+    line-height: 1.375rem;
+  }
+}
+
+<Tabs
+  defaultIndex={2}
+>
+  <TabControl
+    defaultIndex={2}
+    tabItemRenderer={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": e {
+          "baseHash": 1382014160,
+          "baseStyle": undefined,
+          "componentId": "sc-eCstlR",
+          "isStatic": false,
+          "rules": Array [
+            "
+  ",
+            [Function],
+            ";
+",
+          ],
+          "staticRulesId": "",
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "shouldForwardProp": undefined,
+        "styledComponentId": "sc-eCstlR",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+  >
+    <Responsive
+      activeIndex={2}
+      defaultIndex={2}
+      headers={
+        Array [
+          "First",
+          "Second",
+          "Third",
+          "Last",
+        ]
+      }
+      onSelect={[Function]}
+    >
+      <ModeProvider
+        activeIndex={2}
+        defaultIndex={2}
+        dimensions={
+          Object {
+            "angle": 0,
+            "height": 768,
+            "width": 1024,
+          }
+        }
+        headers={
+          Array [
+            "First",
+            "Second",
+            "Third",
+            "Last",
+          ]
+        }
+        innerRef={[Function]}
+        onSelect={[Function]}
+      >
+        <TabInt
+          activeIndex={2}
+          defaultIndex={2}
+          dimensions={
+            Object {
+              "angle": 0,
+              "height": 768,
+              "width": 1024,
+            }
+          }
+          headers={
+            Array [
+              "First",
+              "Second",
+              "Third",
+              "Last",
+            ]
+          }
+          innerRef={[Function]}
+          mode="tab"
+          onSelect={[Function]}
+        >
+          <div>
+            <styled.ul
+              defaultIndex={2}
+              dimensions={
+                Object {
+                  "angle": 0,
+                  "height": 768,
+                  "width": 1024,
+                }
+              }
+            >
+              <ul
+                className="c0"
+              >
+                <styled.li
+                  active={false}
+                  key="head-0"
+                  onClick={[Function]}
+                >
+                  <li
+                    className="c1"
+                    onClick={[Function]}
+                  >
+                    First
+                  </li>
+                </styled.li>
+                <styled.li
+                  active={false}
+                  key="head-1"
+                  onClick={[Function]}
+                >
+                  <li
+                    className="c1"
+                    onClick={[Function]}
+                  >
+                    Second
+                  </li>
+                </styled.li>
+                <styled.li
+                  active={true}
+                  key="head-2"
+                  onClick={[Function]}
+                >
+                  <li
+                    className="c2"
+                    onClick={[Function]}
+                  >
+                    Third
+                  </li>
+                </styled.li>
+                <styled.li
+                  active={false}
+                  key="head-3"
+                  onClick={[Function]}
+                >
+                  <li
+                    className="c1"
+                    onClick={[Function]}
+                  >
+                    Last
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+            <styled.div>
+              <div
+                className=""
+              >
+                <styled.div
+                  active={false}
+                  key="item-0"
+                >
+                  <div
+                    className="c3"
+                  >
+                    <TabPage
+                      header="First"
+                      key=".0"
+                    >
+                      <div>
+                        First content.
+                      </div>
+                    </TabPage>
+                  </div>
+                </styled.div>
+                <styled.div
+                  active={false}
+                  key="item-1"
+                >
+                  <div
+                    className="c3"
+                  >
+                    <TabPage
+                      header="Second"
+                      key=".1"
+                    >
+                      <div>
+                        Second content.
+                      </div>
+                    </TabPage>
+                  </div>
+                </styled.div>
+                <styled.div
+                  active={true}
+                  key="item-2"
+                >
+                  <div
+                    className=""
+                  >
+                    <TabPage
+                      header="Third"
+                      key=".2"
+                    >
+                      <div>
+                        Third content.
+                      </div>
+                    </TabPage>
+                  </div>
+                </styled.div>
+                <styled.div
+                  active={false}
+                  key="item-3"
+                >
+                  <div
+                    className="c3"
+                  >
+                    <TabPage
+                      header="Last"
+                      key=".3"
+                    >
+                      <div>
+                        Final content.
+                      </div>
+                    </TabPage>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+          </div>
+        </TabInt>
+      </ModeProvider>
+    </Responsive>
+  </TabControl>
+</Tabs>
+`;
