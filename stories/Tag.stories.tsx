@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Tag, TagProps } from '../src';
 
 const meta: Meta = {
-  title: 'Tag',
+  title: 'Data/Tag',
   component: Tag,
 };
 

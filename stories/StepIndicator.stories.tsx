@@ -7,7 +7,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'StepIndicator',
+  title: 'Navigation/StepIndicator',
   component: StepIndicator,
   argTypes: {
     current: {

@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Sticky, StickyProps, Container, Button } from '../src';
 
 const meta: Meta = {
-  title: 'Sticky',
+  title: 'Others/Sticky',
   component: Sticky,
   argTypes: {
     href: {

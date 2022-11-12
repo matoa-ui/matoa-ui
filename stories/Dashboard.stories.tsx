@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Dashboard, DashboardProps } from '../src';
 
 const meta: Meta = {
-  title: 'Dashboard',
+  title: 'Basic/Dashboard',
   component: Dashboard,
   argTypes: {
     defaultTiles: {

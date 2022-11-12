@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { ContentSwitch, ContentSwitchProps, TabPage } from '../src';
 
 const meta: Meta = {
-  title: 'ContentSwitch',
+  title: 'Navigation/ContentSwitch',
   component: ContentSwitch,
 };
 

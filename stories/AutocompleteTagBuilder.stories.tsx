@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { AutocompleteTagBuilder, AutocompleteTagBuilderProps } from '../src';
 
 const meta: Meta = {
-  title: 'AutocompleteTagBuilder',
+  title: 'Forms/AutocompleteTagBuilder',
   component: AutocompleteTagBuilder,
   argTypes: {
     suggestions: {

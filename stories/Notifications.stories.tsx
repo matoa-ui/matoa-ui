@@ -8,7 +8,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'Notifications',
+  title: 'Notice/Notifications',
   component: Notifications,
 };
 

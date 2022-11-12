@@ -9,7 +9,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'InfiniteScroll',
+  title: 'Others/InfiniteScroll',
   component: InfiniteScroll,
 };
 

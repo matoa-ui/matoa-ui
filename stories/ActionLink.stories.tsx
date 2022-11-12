@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { ActionLink, ActionLinkProps } from '../src';
 
 const meta: Meta = {
-  title: 'ActionLink',
+  title: 'Basic/ActionLink',
   component: ActionLink,
   argTypes: {
     href: {

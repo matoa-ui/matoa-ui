@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Label, LabelProps } from '../src';
 
 const meta: Meta = {
-  title: 'Label',
+  title: 'Data/Label',
   component: Label,
   argTypes: {
     children: {

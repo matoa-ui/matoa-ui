@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { DropdownMenu, DropdownMenuProps, Anchor } from '../src';
 
 const meta: Meta = {
-  title: 'DropdownMenu',
+  title: 'Navigation/DropdownMenu',
   component: DropdownMenu,
   argTypes: {
     icon: {

@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Responsive, ResponsiveProps } from '../src';
 
 const meta: Meta = {
-  title: 'Responsive',
+  title: 'Basic/Responsive',
   component: Responsive,
 };
 

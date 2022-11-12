@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { PageHead, PageHeadProps } from '../src';
 
 const meta: Meta = {
-  title: 'PageHead',
+  title: 'Navigation/PageHead',
   component: PageHead,
   argTypes: {
     title: {

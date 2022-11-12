@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Rating, RatingProps } from '../src';
 
 const meta: Meta = {
-  title: 'Rating',
+  title: 'Forms/Rating',
   component: Rating,
 };
 

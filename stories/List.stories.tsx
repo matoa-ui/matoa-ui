@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { List, ListProps, ListItem } from '../src';
 
 const meta: Meta = {
-  title: 'List',
+  title: 'Data/List',
   component: List,
 };
 

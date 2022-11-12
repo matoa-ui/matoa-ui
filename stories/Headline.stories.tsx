@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Headline, HeadlineProps } from '../src';
 
 const meta: Meta = {
-  title: 'Headline',
+  title: 'Basic/Headline',
   component: Headline,
 };
 

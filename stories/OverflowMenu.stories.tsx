@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { OverflowMenu, OverflowMenuProps, IconLink } from '../src';
 
 const meta: Meta = {
-  title: 'OverflowMenu',
+  title: 'Navigation/OverflowMenu',
   component: OverflowMenu,
   argTypes: {
     button: {

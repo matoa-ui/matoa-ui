@@ -4,7 +4,7 @@ import { NavBar, NavBarProps } from '../src';
 import Logo from '../assets/logo.jpg';
 
 const meta: Meta = {
-  title: 'NavBar',
+  title: 'Navigation/NavBar',
   component: NavBar,
   argTypes: {
     items: {

@@ -5,7 +5,7 @@ import { FileUploader, FileUploaderProps, SimpleEventManager } from '../src';
 const myEventManager = new SimpleEventManager();
 
 const meta: Meta = {
-  title: 'FileUploader',
+  title: 'Forms/FileUploader',
   component: FileUploader,
   argTypes: {
     events: myEventManager,

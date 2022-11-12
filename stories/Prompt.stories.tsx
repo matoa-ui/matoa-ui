@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Prompt, PromptProps } from '../src';
 
 const meta: Meta = {
-  title: 'Prompt',
+  title: 'Others/Prompt',
   component: Prompt,
   argTypes: {
     message: {

@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { PaginationBar, PaginationBarProps } from '../src';
 
 const meta: Meta = {
-  title: 'PaginationBar',
+  title: 'Data/PaginationBar',
   component: PaginationBar,
   argTypes: {
     selectedPage: {

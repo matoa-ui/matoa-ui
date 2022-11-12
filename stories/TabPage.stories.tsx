@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Tabs, TabPage, TabPageProps } from '../src';
 
 const meta: Meta = {
-  title: 'TabPage',
+  title: 'Navigation/TabPage',
   component: TabPage,
   argTypes: {
     header: {

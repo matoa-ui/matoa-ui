@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Tabs, TabsProps, TabPage } from '../src';
 
 const meta: Meta = {
-  title: 'Tabs',
+  title: 'Navigation/Tabs',
   component: Tabs,
   argTypes: {
     defaultIndex: {

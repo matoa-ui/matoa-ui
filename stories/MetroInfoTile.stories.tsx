@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { MetroInfoTile, MetroInfoTileProps } from '../src';
 
 const meta: Meta = {
-  title: 'MetroInfoTile',
+  title: 'Others/MetroInfoTile',
   component: MetroInfoTile,
   argTypes: {
     title: {

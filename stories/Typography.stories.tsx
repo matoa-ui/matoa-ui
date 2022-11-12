@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { styled, getFontStyle } from '../src';
 
 const meta: Meta = {
-  title: 'Typography',
+  title: 'Basic/Typography',
 };
 
 export default meta;

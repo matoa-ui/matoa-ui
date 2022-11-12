@@ -9,7 +9,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'Modal',
+  title: 'Others/Modal',
   component: Modal,
 };
 

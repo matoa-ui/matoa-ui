@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { PaddedContainer, PaddedContainerProps } from '../src';
 
 const meta: Meta = {
-  title: 'PaddedContainer',
+  title: 'Others/PaddedContainer',
   component: PaddedContainer,
   argTypes: {
     gutter: {

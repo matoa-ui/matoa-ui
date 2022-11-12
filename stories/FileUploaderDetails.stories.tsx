@@ -12,7 +12,7 @@ let files = {};
 let eventManager = eventManagers[0];
 
 const meta: Meta = {
-  title: 'FileUploaderDetails',
+  title: 'Forms/FileUploaderDetails',
   component: FileUploaderDetails,
 };
 

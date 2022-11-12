@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { IndicatorKnob, IndicatorKnobProps } from '../src';
 
 const meta: Meta = {
-  title: 'IndicatorKnob',
+  title: 'Others/IndicatorKnob',
   component: IndicatorKnob,
 };
 

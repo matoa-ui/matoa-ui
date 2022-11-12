@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { FileSelect, FileSelectProps } from '../src';
 
 const meta: Meta = {
-  title: 'FileSelect',
+  title: 'Forms/FileSelect',
   component: FileSelect,
   argTypes: {
     multiple: {

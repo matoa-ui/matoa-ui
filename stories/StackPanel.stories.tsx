@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { StackPanel, StackPanelProps, StackItem } from '../src';
 
 const meta: Meta = {
-  title: 'StackPanel',
+  title: 'Basic/StackPanel',
   component: StackPanel,
 };
 

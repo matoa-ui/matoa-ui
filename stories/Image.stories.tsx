@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Image, ImageProps } from '../src';
 
 const meta: Meta = {
-  title: 'Image',
+  title: 'Others/Image',
   component: Image,
   argTypes: {
     preload: {

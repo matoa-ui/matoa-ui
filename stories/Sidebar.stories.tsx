@@ -8,7 +8,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'Sidebar',
+  title: 'Others/Sidebar',
   component: Sidebar,
   argTypes: {
     activator: {

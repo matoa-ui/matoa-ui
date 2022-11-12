@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { InteractiveList, InteractiveListProps } from '../src';
 
 const meta: Meta = {
-  title: 'InteractiveList',
+  title: 'Data/InteractiveList',
   component: InteractiveList,
   argTypes: {
     data: {

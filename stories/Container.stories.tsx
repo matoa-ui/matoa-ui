@@ -8,7 +8,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'Container',
+  title: 'Basic/Container',
   component: Container,
   argTypes: {
     maxWidth: {

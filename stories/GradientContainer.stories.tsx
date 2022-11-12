@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { GradientContainer } from '../src';
 
 const meta: Meta = {
-  title: 'GradientContainer',
+  title: 'Others/GradientContainer',
   component: GradientContainer,
 };
 

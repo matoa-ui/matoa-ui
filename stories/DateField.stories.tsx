@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { DateField, DateFieldProps } from '../src';
 
 const meta: Meta = {
-  title: 'DateField',
+  title: 'Forms/DateField',
   component: DateField,
 };
 

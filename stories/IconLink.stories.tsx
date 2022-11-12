@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { IconLink, IconLinkProps } from '../src';
 
 const meta: Meta = {
-  title: 'IconLink',
+  title: 'Navigation/IconLink',
   component: IconLink,
   argTypes: {
     icon: {

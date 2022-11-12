@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Card, CardProps, Image, CardBody, Button } from '../src';
 
 const meta: Meta = {
-  title: 'Card',
+  title: 'Others/Card',
   component: Card,
 };
 

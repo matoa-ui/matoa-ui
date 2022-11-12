@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { SelectButton, SelectButtonProps } from '../src';
 
 const meta: Meta = {
-  title: 'SelectButton',
+  title: 'Forms/SelectButton',
   component: SelectButton,
   argTypes: {
     data: {

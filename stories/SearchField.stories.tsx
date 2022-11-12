@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { SearchField, SearchFieldProps } from '../src';
 
 const meta: Meta = {
-  title: 'SearchField',
+  title: 'Forms/SearchField',
   component: SearchField,
   argTypes: {
     label: {

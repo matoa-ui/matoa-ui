@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { TextField, withValidation } from '../src';
 
 const meta: Meta = {
-  title: 'InputInfo',
+  title: 'Forms/InputInfo',
   component: TextField,
 };
 

@@ -7,7 +7,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'AccordionTableRow',
+  title: 'Others/AccordionTableRow',
   component: AccordionTableRow,
 };
 

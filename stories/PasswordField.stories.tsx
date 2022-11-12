@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { PasswordField, PasswordFieldProps } from '../src';
 
 const meta: Meta = {
-  title: 'PasswordField',
+  title: 'Forms/PasswordField',
   component: PasswordField,
   argTypes: {
     label: {

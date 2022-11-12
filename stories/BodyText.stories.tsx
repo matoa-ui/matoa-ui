@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { BodyText, BodyTextProps } from '../src';
 
 const meta: Meta = {
-  title: 'BodyText',
+  title: 'Basic/BodyText',
   component: BodyText,
   argTypes: {
     children: {

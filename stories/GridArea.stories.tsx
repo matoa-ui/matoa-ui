@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Grid, GridArea, GridAreaProps } from '../src';
 
 const meta: Meta = {
-  title: 'GridArea',
+  title: 'Basic/GridArea',
   component: GridArea,
 };
 

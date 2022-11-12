@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Flyout, FlyoutProps, Tag } from '../src';
 
 const meta: Meta = {
-  title: 'Flyout',
+  title: 'Others/Flyout',
   component: Flyout,
 };
 

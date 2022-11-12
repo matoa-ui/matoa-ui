@@ -7,7 +7,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'RadioButtonGroup',
+  title: 'Forms/RadioButtonGroup',
   component: RadioButtonGroup,
 };
 

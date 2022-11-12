@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Spinner, SpinnerProps } from '../src';
 
 const meta: Meta = {
-  title: 'Spinner',
+  title: 'Notice/Spinner',
   component: Spinner,
 };
 

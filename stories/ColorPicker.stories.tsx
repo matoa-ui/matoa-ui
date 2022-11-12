@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { ColorPicker, ColorPickerProps } from '../src';
 
 const meta: Meta = {
-  title: 'ColorPicker',
+  title: 'Forms/ColorPicker',
   component: ColorPicker,
   argTypes: {
     defaultValue: {

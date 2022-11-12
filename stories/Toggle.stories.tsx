@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Toggle, ToggleProps } from '../src';
 
 const meta: Meta = {
-  title: 'Toggle',
+  title: 'Forms/Toggle',
   component: Toggle,
 };
 

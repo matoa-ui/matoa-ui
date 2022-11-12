@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { AccordionCard, AccordionCardProps } from '../src';
 
 const meta: Meta = {
-  title: 'AccordionCard',
+  title: 'Others/AccordionCard',
   component: AccordionCard,
   argTypes: {
     header: {

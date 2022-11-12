@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Grid, GridProps } from '../src';
 
 const meta: Meta = {
-  title: 'Grid',
+  title: 'Basic/Grid',
   component: Grid,
   argTypes: {
     rows: {

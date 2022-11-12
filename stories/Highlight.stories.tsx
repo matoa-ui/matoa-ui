@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Highlight, HighlightProps } from '../src';
 
 const meta: Meta = {
-  title: 'Highlight',
+  title: 'Others/Highlight',
   component: Highlight,
   argTypes: {
     text: {

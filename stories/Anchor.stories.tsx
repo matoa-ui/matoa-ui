@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Anchor, AnchorProps } from '../src';
 
 const meta: Meta = {
-  title: 'Anchor',
+  title: 'Basic/Anchor',
   component: Anchor,
   argTypes: {
     href: {

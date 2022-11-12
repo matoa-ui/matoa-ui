@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Breadcrumbs, Breadcrumb, BreadcrumbsProps } from '../src';
 
 const meta: Meta = {
-  title: 'Breadcrumbs',
+  title: 'Navigation/Breadcrumbs',
   component: Breadcrumbs,
   argTypes: {
     size: {

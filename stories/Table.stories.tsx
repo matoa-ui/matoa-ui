@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Table, TableProps } from '../src';
 
 const meta: Meta = {
-  title: 'Table',
+  title: 'Data/Table',
   component: Table,
   argTypes: {
     data: {

@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { WindowPopup, WindowPopupProps, Button } from '../src';
 
 const meta: Meta = {
-  title: 'WindowPopup',
+  title: 'Others/WindowPopup',
   component: WindowPopup,
 };
 

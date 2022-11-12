@@ -12,7 +12,7 @@ import {
 } from '../src';
 
 const meta: Meta = {
-  title: 'Colors',
+  title: 'Basic/Colors',
 };
 
 export default meta;

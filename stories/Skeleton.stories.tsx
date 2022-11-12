@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Skeleton, SkeletonProps } from '../src';
 
 const meta: Meta = {
-  title: 'Skeleton',
+  title: 'Data/Skeleton',
   component: Skeleton,
 };
 

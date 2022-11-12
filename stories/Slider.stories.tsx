@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Slider, SliderProps } from '../src';
 
 const meta: Meta = {
-  title: 'Slider',
+  title: 'Forms/Slider',
   component: Slider,
 };
 

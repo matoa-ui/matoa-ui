@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Carousel, CarouselProps } from '../src';
 
 const meta: Meta = {
-  title: 'Carousel',
+  title: 'Others/Carousel',
   component: Carousel,
   argTypes: {
     infinite: {
